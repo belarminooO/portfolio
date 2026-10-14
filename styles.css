@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #172033;
+  background: #f6f8fb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* INICIO NAVEGACAO */
+.nav {
+  background-color: rgba(14, 20, 31, 0.96);
+  min-height: 72px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  padding: 0 10%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.brand {
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 8px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #d9e1ee;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.nav-list a:hover {
+  color: #ffffff;
+}
+/* FIM NAVEGACAO*/
+
+
+/* INICIO HOME */
+.home {
+  width: 100%;
+  min-height: calc(100vh - 72px);
+  background-image: url("images/programador.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 96px 10%;
+}
+
+.home-content {
+  position: relative;
+  max-width: 680px;
+}
+
+.eyebrow,
+.section-label {
+  color: #0077b6;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.home .eyebrow {
+  color: #5fd4ff;
+}
+
+.home h1 {
+  color: #ffffff;
+  font-size: 56px;
+  line-height: 1.05;
+  max-width: 720px;
+}
+
+.home-text {
+  color: #e6edf7;
+  font-size: 20px;
+  line-height: 1.7;
+  margin-top: 22px;
+  max-width: 620px;
+}
+
+.home-actions {
+  display: flex;
+  gap: 14px;
+  margin-top: 34px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 22px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button.primary {
+  color: #08101b;
+  background: #ffffff;
+}
+
+.button.secondary {
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+}
+/* FIM HOME */
+
+/* INICIO SOBRE */
+.about {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 88px 10%;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  justify-content: space-between;
+}
+
+.about-content {
+  max-width: 620px;
+}
+
+.about h2,
+.projects h2,
+.contact h2 {
+  font-size: 36px;
+  line-height: 1.18;
+  margin-bottom: 18px;
+  color: #111827;
+}
+
+.about p,
+.projects p,
+.contact p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #465366;
+}
+
+.about-content p + p {
+  margin-top: 16px;
+}
+
+.about img {
+  width: 30%;
+  border-radius: 8px;
+  box-shadow: 0 18px 60px rgba(23, 32, 51, 0.14);
+}
+/* FIM SOBRE */
+
+
+/* INICIO PROJETOS */
+.projects {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 88px 10%;
+  background: #f6f8fb;
+}
+
+.section-heading {
+  width: 100%;
+  max-width: 980px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.project-grid {
+  width: 100%;
+  max-width: 1120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 22px;
+}
+
+.project-card {
+  background: #ffffff;
+  border: 1px solid #dfe6f0;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.project-card img {
+  width: 100%;
+  object-fit: cover;
+  border-bottom: 1px solid #dfe6f0;
+}
+
+.project-card div {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.project-card h3 {
+  font-size: 20px;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+
+.project-card a {
+  color: #006d9f;
+  font-weight: 700;
+  text-decoration: none;
+  margin-top: auto;
+}
+
+.button.dark {
+  color: #ffffff;
+  background: #172033;
+  margin-top: 36px;
+}
+/* FIM PROJETOS */
+
+/* INICIO CONTACTOS */
+.contact {
+  background: #ffffff;
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.contact h2 {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+
+.contact-links a {
+  border: 1px solid #d3dce8;
+  border-radius: 6px;
+  padding: 12px 18px;
+  text-decoration: none;
+  color: #172033;
+  font-weight: 700;
+}
+/* FIM CONTACTOS */
+
+/* INICIO RODAPE */
+footer {
+  width: 100%;
+  background-color: #0e141f;
+  padding: 32px 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer p {
+  color: #b8c3d4;
+}
+/* FIM RODAPE */
+
+/* INICIO RESPONSIBILIDADE */
+@media (max-width: 900px) {
+  .nav {
+    padding: 0 6%;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .nav-list {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .nav-list a {
+    padding-left: 0;
+  }
+
+  .home,
+  .about,
+  .projects,
+  .contact {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .home h1 {
+    font-size: 42px;
+  }
+
+  .home-text {
+    font-size: 18px;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .about img {
+    width: 100%;
+    max-width: 520px;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about h2,
+  .projects h2,
+  .contact h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 560px) {
+  .home h1 {
+    font-size: 36px;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
+/* FIM RESPONSIBILIDADE */
