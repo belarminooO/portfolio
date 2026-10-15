@@ -6,6 +6,8 @@ Portfolio responsivo de Belarmino Sacate, criado para apresentar perfil, compet�
   <img src="./docs/media/preview.png" alt="Pré-visualização do Portfolio Pessoal" width="900" />
 </a>
 
+---
+
 ## Conteúdo
 
 - Apresentação profissional e resumo de competências.
@@ -13,11 +15,15 @@ Portfolio responsivo de Belarmino Sacate, criado para apresentar perfil, compet�
 - Contactos para email, LinkedIn e GitHub.
 - Navegação por âncoras e design responsivo.
 
+---
+
 ## O que aprofundei
 
 - Estruturação de uma página pessoal com secções semânticas e navegação por âncoras.
 - Organização de projetos em cartões e apresentação clara das tecnologias usadas.
 - Criação de uma experiência responsiva e de ligações externas consistentes para GitHub e LinkedIn.
+
+---
 
 ## Tecnologias
 
@@ -26,7 +32,23 @@ Portfolio responsivo de Belarmino Sacate, criado para apresentar perfil, compet�
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white" alt="CSS3" />
 </div>
 
+---
+
 ## Como executar
 
 Abra `index.html` no navegador. Não requer instalação.
 
+---
+
+## Contacto
+
+<a href="https://www.linkedin.com/in/belarmino-sacate-1b830037b/">
+  <img align="center" alt="LinkedIn" width="24px" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" />
+  LinkedIn Profile
+</a>
+<br>
+<br>
+<a href="mailto:belarmino.s.bs@gmail.com">
+  <img align="center" alt="Gmail" width="24px" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" />
+  belarmino.s.bs@gmail.com
+</a>
